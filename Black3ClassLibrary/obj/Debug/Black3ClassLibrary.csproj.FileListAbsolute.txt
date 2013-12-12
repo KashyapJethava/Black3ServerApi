@@ -1,0 +1,5 @@
+D:\A journey\BlackDay\Black3ServerApi\Black3ClassLibrary\bin\Debug\Black3ClassLibrary.dll
+D:\A journey\BlackDay\Black3ServerApi\Black3ClassLibrary\bin\Debug\Black3ClassLibrary.pdb
+D:\A journey\BlackDay\Black3ServerApi\Black3ClassLibrary\obj\Debug\Black3ClassLibrary.csprojResolveAssemblyReference.cache
+D:\A journey\BlackDay\Black3ServerApi\Black3ClassLibrary\obj\Debug\Black3ClassLibrary.dll
+D:\A journey\BlackDay\Black3ServerApi\Black3ClassLibrary\obj\Debug\Black3ClassLibrary.pdb
