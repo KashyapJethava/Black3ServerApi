@@ -39,11 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Constants.cs" />
     <Compile Include="Common\ShuffleCards.cs" />
     <Compile Include="BusinessLogic\StartGame.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Common\Deck.cs" />
     <Compile Include="Enums\NPlayers.cs" />
+    <Compile Include="GameEvents.cs" />
+    <Compile Include="GamePlan\GameLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

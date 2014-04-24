@@ -108,16 +108,86 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CardDistrubuteViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Contents\images\classic-cards\10C.png" />
+    <Content Include="Contents\images\classic-cards\10D.png" />
+    <Content Include="Contents\images\classic-cards\10H.png" />
+    <Content Include="Contents\images\classic-cards\10S.png" />
+    <Content Include="Contents\images\classic-cards\2C.png" />
+    <Content Include="Contents\images\classic-cards\2D.png" />
+    <Content Include="Contents\images\classic-cards\2H.png" />
+    <Content Include="Contents\images\classic-cards\2S.png" />
+    <Content Include="Contents\images\classic-cards\3C.png" />
+    <Content Include="Contents\images\classic-cards\3D.png" />
+    <Content Include="Contents\images\classic-cards\3H.png" />
+    <Content Include="Contents\images\classic-cards\3S.png" />
+    <Content Include="Contents\images\classic-cards\4C.png" />
+    <Content Include="Contents\images\classic-cards\4D.png" />
+    <Content Include="Contents\images\classic-cards\4H.png" />
+    <Content Include="Contents\images\classic-cards\4S.png" />
+    <Content Include="Contents\images\classic-cards\5C.png" />
+    <Content Include="Contents\images\classic-cards\5D.png" />
+    <Content Include="Contents\images\classic-cards\5H.png" />
+    <Content Include="Contents\images\classic-cards\5S.png" />
+    <Content Include="Contents\images\classic-cards\6C.png" />
+    <Content Include="Contents\images\classic-cards\6D.png" />
+    <Content Include="Contents\images\classic-cards\6H.png" />
+    <Content Include="Contents\images\classic-cards\6S.png" />
+    <Content Include="Contents\images\classic-cards\7C.png" />
+    <Content Include="Contents\images\classic-cards\7D.png" />
+    <Content Include="Contents\images\classic-cards\7H.png" />
+    <Content Include="Contents\images\classic-cards\7S.png" />
+    <Content Include="Contents\images\classic-cards\8C.png" />
+    <Content Include="Contents\images\classic-cards\8D.png" />
+    <Content Include="Contents\images\classic-cards\8H.png" />
+    <Content Include="Contents\images\classic-cards\8S.png" />
+    <Content Include="Contents\images\classic-cards\9C.png" />
+    <Content Include="Contents\images\classic-cards\9D.png" />
+    <Content Include="Contents\images\classic-cards\9H.png" />
+    <Content Include="Contents\images\classic-cards\9S.png" />
+    <Content Include="Contents\images\classic-cards\AC.png" />
+    <Content Include="Contents\images\classic-cards\AD.png" />
+    <Content Include="Contents\images\classic-cards\AH.png" />
+    <Content Include="Contents\images\classic-cards\AS.png" />
+    <Content Include="Contents\images\classic-cards\b1fh.png" />
+    <Content Include="Contents\images\classic-cards\b1fv.png" />
+    <Content Include="Contents\images\classic-cards\b1pb.png" />
+    <Content Include="Contents\images\classic-cards\b1pl.png" />
+    <Content Include="Contents\images\classic-cards\b1pr.png" />
+    <Content Include="Contents\images\classic-cards\b1pt.png" />
+    <Content Include="Contents\images\classic-cards\b2fh.png" />
+    <Content Include="Contents\images\classic-cards\b2fv.png" />
+    <Content Include="Contents\images\classic-cards\b2pb.png" />
+    <Content Include="Contents\images\classic-cards\b2pl.png" />
+    <Content Include="Contents\images\classic-cards\b2pr.png" />
+    <Content Include="Contents\images\classic-cards\b2pt.png" />
+    <Content Include="Contents\images\classic-cards\J1.png" />
+    <Content Include="Contents\images\classic-cards\J2.png" />
+    <Content Include="Contents\images\classic-cards\JC.png" />
+    <Content Include="Contents\images\classic-cards\JD.png" />
+    <Content Include="Contents\images\classic-cards\JH.png" />
+    <Content Include="Contents\images\classic-cards\JS.png" />
+    <Content Include="Contents\images\classic-cards\KC.png" />
+    <Content Include="Contents\images\classic-cards\KD.png" />
+    <Content Include="Contents\images\classic-cards\KH.png" />
+    <Content Include="Contents\images\classic-cards\KS.png" />
+    <Content Include="Contents\images\classic-cards\QC.png" />
+    <Content Include="Contents\images\classic-cards\QD.png" />
+    <Content Include="Contents\images\classic-cards\QH.png" />
+    <Content Include="Contents\images\classic-cards\QS.png" />
+    <Content Include="Contents\images\table.jpg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\black3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -129,11 +199,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Black3ClassLibrary\Black3ClassLibrary.csproj">
+      <Project>{21372a9c-cb09-4315-805d-e307b4200b18}</Project>
+      <Name>Black3ClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
